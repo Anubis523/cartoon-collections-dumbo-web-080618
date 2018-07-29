@@ -5,7 +5,7 @@ end
 
 def summon_captain_planet (powers)# code an argument hereS
   # Your code here
-  powers.collect{|power| "#{power.upcase}!"}
+  powers.collect{|power| "#{power.chars[0].upcase}!"}
 end
 
 def long_planeteer_calls# code an argument here
